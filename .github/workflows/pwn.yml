@@ -19,5 +19,5 @@ jobs:
           SUPER_SECRET: ${{ secrets.SECRET }}
         run: |
           echo "Target branch: ${{ github.event.pull_request.head.ref }}"
-          echo "var1: $VAR1"
-          echo "SECRET: $SUPER_SECRET"
+          #echo "var1: $VAR1"
+          #echo "SECRET: $SUPER_SECRET"
